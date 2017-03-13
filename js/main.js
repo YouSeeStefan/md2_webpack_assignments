@@ -18,6 +18,24 @@
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
 
+ var product1 = "Webshop";
+ var product2 = "Blog";
+ var product3 = "Chatroom";
+ var product4 = "Canvas";
+ var product5 = "Calc";
+
+ var number1 = "1";
+ var number2 = "2";
+ var number3 = "3";
+ var number4 = "4";
+ var number5 = "5";
+
+ var boolean1 = "true";
+ var boolean2 = "false";
+ var boolean3 = "true";
+ var boolean4 = "false";
+ var boolean5 = "true";
+
 /**
  * Opdracht 2: Arrays
  * Bedenk 3 arrays en vul ze met primitives
@@ -26,11 +44,21 @@
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
 
+ var students = ["Stefan", "Frank", "Mauro"];
+ var Landen = ["Nederland", "Italie", "Spanje"];
+ var Leeftijd = ["18", "19", "20"];
+
+ console.log(students, Landen, Leeftijd);
+
 /**
  * Opdracht 3: Arrays push
  * Maak een lege array aan
  * push er een string in
  */
+
+ var fruit = new Array();
+ fruit["1"] = "Appel";
+ console.log(fruit);
 
 /**
  * Opdracht 4: Array splice
@@ -39,12 +67,29 @@
  * Gooi de naam op de 3e plek weg
  */
 
+ var namen = ['henk', 'klaas', 'piet', 'kees', 'bert'];
+ namen.splice(0, 1);
+ namen.splice(1, 1);
+ console.log(namen);
+
 /**
  * Opdracht 5: Objects
  * Maak van 10 objecten uit je dagelijkse leven een object
  *
  * Bijvoorbeeld een object met de gegevens van je mobiel zoals welk merk, type en hoe oud hij is
  */
+
+ var vrucht = {soort:"Apple", color:"red", steel:"yes"};
+ var consoles = {merk:"Nintendo", soort:"Switch", color:"black"};
+ var car = {type:"Fiat", model:"500", color:"white"};
+ var dier = {soort:"Kip", geslacht:"vrouw", color:"white"};
+ var bloem = {soort:"tulp", color:"red", height:"20cm"};
+ var youtuber = {name:"Casey Neistat", subs:"6.630.277", lid:"15 feb. 2010"};
+ var pc = {merk:"Asus", color:"black", audio:"ICEpower"};
+ var laptop = {merk:"hp", color:"black", audio:"beatsaudio"};
+ var facebook = {name:"Facebook", color:"blue", leuk:"yes"};
+ var school = {name:"MA", color:"Red/Black", leuk:"yes"};
+ console.log(vrucht,consoles,car,dier,bloem,youtuber,pc,laptop,facebook,school);
 
 /**
  * Opdracht 6: Functions
@@ -53,12 +98,41 @@
  * console.log( value * multiplier)
  */
 
+ function multiply(p1, p2){
+ 	return p1 * p2;
+ }
+ console.log(multiply(4, 3));
+
+  function divide(p1, p2){
+ 	return p1 / p2;
+ }
+ console.log(divide(4, 3));
+
+  function substract(p1, p2){
+ 	return p1 - p2;
+ }
+ console.log(substract(4, 3));
+
+  function add(p1, p2){
+ 	return p1 + p2;
+ }
+ console.log(add(4, 3));
+
 /**
  * Opdracht 7: Function & objects
  * Maak een functie die een firstName en lastName verwacht als parameter
  * vervolgens returned de functie een object met daarin de firstname en lastname opgeslagen
  * roep deze functie aan en console.log() de waarde
  */
+
+function person(firstname,lastname) {
+   	var newperson = {firstname:"firstname", lastname:"lastname"};
+   	
+}
+
+var myMother = new person("Sally","Rally",48,"green");
+console.log(myMother);
+
 
 /**
  * Opdracht 8: Functions, objects
