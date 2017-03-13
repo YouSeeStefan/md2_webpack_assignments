@@ -23,5 +23,8 @@
     "webpack-dev-server": "^1.16.2"
   },
   "author": "Berend Weij",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
 }
