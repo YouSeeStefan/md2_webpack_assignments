@@ -232,6 +232,9 @@ String.prototype.replaceAll = function(search, replacement) {
  * console.log() de naam die deze functie returned
  */
 
+	var namen = ["Stefan","Frank", "Mauro", "Nanko"];
+	console.log(namen.random);
+	
 /**
  * Opdracht 17: Custom prototype method gebruiken
  * Maak een variabele waarin je een lange tekst opslaat
