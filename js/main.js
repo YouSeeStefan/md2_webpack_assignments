@@ -122,6 +122,7 @@
  }
  console.log(add(4, 3));
 
+debugger;
 /**
  * Opdracht 7: Function & objects
  * Maak een functie die een firstName en lastName verwacht als parameter
